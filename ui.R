@@ -33,7 +33,7 @@ shinyUI(navbarPage(
     # Create the tab for the 'About' section of the app
     tabPanel(
       # Add the title
-      title = "Training and Suggestions",
+      title = "Training Topic",
       
       # Create a main panel for this specific tab
       mainPanel(
@@ -44,7 +44,11 @@ shinyUI(navbarPage(
           height = '300 px',
           width = '480 px'
           
-        )
+        ),
+        
+        h3("What is Food Safety Culture?"),
+        
+        
         ),
       sidebarPanel(
         
