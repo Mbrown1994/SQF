@@ -41,13 +41,29 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "Food.png",
-          height = '300 px',
-          width = '480 px'
+          src = "Allergen.png",
+          height = '400 px',
+          width = '450 px'
           
         ),
         
-        h3("What is Food Safety Culture?"),
+        br(),
+        br(),
+        br(),
+        br(),
+        
+        h3("Berry Global Food Safety Policy"),
+        "Provide food safe and high-quality packaging products, and services",
+         "that meet customers' expectations.", br(),
+         "Comply with applicable customer and",
+        "regulatory requirements while continually improving the safety", br(),
+        "of the",
+        "food packaging manufacturing system by establishing and reviewing food",
+        "safety objectives. Maintain", br(),
+        "system effectiveness through utilization of",
+        "technology, teamwork, and skilled employees. We are committed", br(),
+        "to maintaining",
+        "our established food safety culture."
         
         
         ),
@@ -55,22 +71,27 @@ shinyUI(navbarPage(
         
         # Describe what this app will be used for
         h3("What does the standard say?"),
-        "Clause 13.4.1.2 Personnel working in or visitng food sector packaging",
-        "manufacturing, handling, or storage operations shall ensure that: eaeting,",
-        "drinking, smoking, or spitting is not permitted in areas where food sector ",
-        "packaging is manufactured, handled, stored, or exposed.",
+        "Clause 2.8.1.1 The responsibility and methods used",
+        "to control allergens and to prevent sources of allergens",
+        "from contaminating food sector packaging shall be documented",
+        "and implemented.",
         br(),
+        h3("What are allergens?"),
+        "An allergen is a substance that causes an inflammatory reaction",
+        "to the body triggered by the immune system.",
         br(),
-        br(),
-        
         h3("What does it mean?"),
-        "Personel are not allowed to eat or drink in any production areas - all food/drinks must be stored and used in",
-        "the breakroom. This includes any",
-        "candy, gum, and coffee. You should not use lockers to store any edible",
-        "items as they may welcome pests of different types into the building.", 
-        "If you find any food, drinks, or wrappers on the floor please it report to",
-        "your lead.",
+        "The plant has a documented allergen management program",
+        "(WI-00084) with the purpose of outlining procedures,",
+        "requirements, and controls necessary to prevent sources",
+        "of allergens from contaminating food packaging products.",
+        "Some of our requirements to prevent sources of allergen",
+        "contamination include hand washing, part handling methods,",
+        "and cleaning of equipment.",
         br(),
+        h3("What are the 9 major food allergens?"),
+        "Milk, Tree nuts, Peanuts, Shellfish, Wheat, Eggs, Fish,",
+        "Soy, and Sesame.",
         br(),
        
         
