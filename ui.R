@@ -41,8 +41,8 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "Allergen.png",
-          height = '400 px',
+          src = "FoodFraud.png",
+          height = '350 px',
           width = '450 px'
           
         ),
@@ -70,28 +70,30 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What does the standard say?"),
-        "Clause 2.8.1.1 The responsibility and methods used",
-        "to control allergens and to prevent sources of allergens",
-        "from contaminating food sector packaging shall be documented",
-        "and implemented.",
+        h3("What is food fraud"),
+        "Food fraud is the deception of consumers through intentional",
+        "adulteration of food. This is done by either substituting one",
+        "product for another or using unapproved enhancements/additives.",
+        "The key terms to understand when defining food fraud are",
+        "misrepresenting, misbranding, mislabeling and counterfeiting.",
         br(),
-        h3("What are allergens?"),
-        "An allergen is a substance that causes an inflammatory reaction",
-        "to the body triggered by the immune system.",
+        h3("Food Fraud Examples"),
+        "Economically motivated adulteration (EMA) occurs when someone",
+        "intentionally leaves out, takes out, or substitutes a valuable",
+        "ingredient or part of a food. EMA also occurs when someone adds",
+        "a substance to a food to make it appear better or of greater value.",
         br(),
-        h3("What does it mean?"),
-        "The plant has a documented allergen management program",
-        "(WI-00084) with the purpose of outlining procedures,",
-        "requirements, and controls necessary to prevent sources",
-        "of allergens from contaminating food packaging products.",
-        "Some of our requirements to prevent sources of allergen",
-        "contamination include hand washing, part handling methods,",
-        "and cleaning of equipment.",
+        "Substitution: examples include adding sugar to honey, selling regular",
+        "beef as Wagyu beef, or injecting shrimp with gel to make them look",
+        "larger and weigh more.",
         br(),
-        h3("What are the 9 major food allergens?"),
-        "Milk, Tree nuts, Peanuts, Shellfish, Wheat, Eggs, Fish,",
-        "Soy, and Sesame.",
+        "Mislabeling: examples include the sale of horsemeat as beef in Europe,",
+        "the addition of melamine to infant formula in China, and the mislabeling",
+        "of fish species in the United States.",
+        br(),
+        "Counterfeiting: examples include cutting orange juice with cheaper alternatives",
+        "including lemon, grapefruit, or mandarin juice.",
+        
         br(),
        
         
