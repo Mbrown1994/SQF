@@ -41,7 +41,7 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "FoodFraud.png",
+          src = "GMP.png",
           height = '350 px',
           width = '450 px'
           
@@ -70,29 +70,28 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What is food fraud"),
-        "Food fraud is the deception of consumers through intentional",
-        "adulteration of food. This is done by either substituting one",
-        "product for another or using unapproved enhancements/additives.",
-        "The key terms to understand when defining food fraud are",
-        "misrepresenting, misbranding, mislabeling and counterfeiting.",
+        h3("What are good manufacturing practices?"),
+        "Good manufacturing practices are used in the industry to",
+        "define methods, processes, and guidelines that ensure the safety",
+        "and quality of the products produced. Personnel hygiene, plant",
+        "sanitation, equipment maintenance, product labeling, and record",
+        "keeping are all defined within the guidelines of good manufacturing",
+        "practices.",
+        
         br(),
-        h3("Food Fraud Examples"),
-        "Economically motivated adulteration (EMA) occurs when someone",
-        "intentionally leaves out, takes out, or substitutes a valuable",
-        "ingredient or part of a food. EMA also occurs when someone adds",
-        "a substance to a food to make it appear better or of greater value.",
+        h3("How does it relate to us?"),
+        "Ex: For personal hygiene and sanitary practice, we require",
+        "employees to wash their hands thoroughly, followed by the use",
+        "of hand sanitizer any time they enter the floor.",
         br(),
-        "Substitution: examples include adding sugar to honey, selling regular",
-        "beef as Wagyu beef, or injecting shrimp with gel to make them look",
-        "larger and weigh more.",
         br(),
-        "Mislabeling: examples include the sale of horsemeat as beef in Europe,",
-        "the addition of melamine to infant formula in China, and the mislabeling",
-        "of fish species in the United States.",
+        "Ex: For hair contamination risk, we require employees with beards,",
+        "mustaches, or sideburns extending below the ear to wear beard nets",
+        "in the production area.",
         br(),
-        "Counterfeiting: examples include cutting orange juice with cheaper alternatives",
-        "including lemon, grapefruit, or mandarin juice.",
+        br(),
+        "There are other policies in place related to good manufacturing",
+        "practices and all of these policies also apply to outside visitors/vendors.",
         
         br(),
        
