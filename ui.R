@@ -41,9 +41,9 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "GMP.png",
+          src = "HACCP.png",
           height = '350 px',
-          width = '450 px'
+          width = '500 px'
           
         ),
         
@@ -70,28 +70,33 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What are good manufacturing practices?"),
-        "Good manufacturing practices are used in the industry to",
-        "define methods, processes, and guidelines that ensure the safety",
-        "and quality of the products produced. Personnel hygiene, plant",
-        "sanitation, equipment maintenance, product labeling, and record",
-        "keeping are all defined within the guidelines of good manufacturing",
-        "practices.",
+        h3("What does HACCP stand for?"),
+        "HACCP stands for hazard analysis critical control points.",
+        "This is a system that is in place to determine what risks",
+        "or hazards exist within our plant that could hurt consumers",
+        "(or make them sick) and then how do we address those risks.",
         
         br(),
-        h3("How does it relate to us?"),
-        "Ex: For personal hygiene and sanitary practice, we require",
-        "employees to wash their hands thoroughly, followed by the use",
-        "of hand sanitizer any time they enter the floor.",
+        h3("How do we address these risks?"),
+        "There are 3 different types of hazards that exist that we as",
+        "a plant need to address:",
+        br(),
+        "1. Biological Hazards: This type of hazard includes viruses, ",
+        "bacteria, mold, and yeast. Our best defense against biological",
+        "hazards include sanitation of hands/equipment and part handling ",
+        "methods.",
         br(),
         br(),
-        "Ex: For hair contamination risk, we require employees with beards,",
-        "mustaches, or sideburns extending below the ear to wear beard nets",
-        "in the production area.",
+        "2. Chemical Hazards: This type of hazard includes cleaners, oils,",
+        "lubricants, inks, and solvents. Our best defense against chemical",
+        "hazards include cleaning/sanitizing product-contact surfaces following",
+        "any maintenance activities and only allowing certain cleaning products",
+        "on those surfaces.",
         br(),
         br(),
-        "There are other policies in place related to good manufacturing",
-        "practices and all of these policies also apply to outside visitors/vendors.",
+        "3. Physical Hazards: This type of hazard includes metal, wood, glass,",
+        " and hair. Our best defense against physical hazards are some of the ",
+        "GMP practices that we have in place like the hair and beard nets.",
         
         br(),
        
