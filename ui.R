@@ -41,8 +41,8 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "HACCP.png",
-          height = '350 px',
+          src = "FoodCulture.png",
+          height = '450 px',
           width = '500 px'
           
         ),
@@ -70,33 +70,32 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What does HACCP stand for?"),
-        "HACCP stands for hazard analysis critical control points.",
-        "This is a system that is in place to determine what risks",
-        "or hazards exist within our plant that could hurt consumers",
-        "(or make them sick) and then how do we address those risks.",
+        h3("What is food safety culture?"),
+        "They are the shared values, beliefs, and norms that affect",
+        "mindset and behavior toward food safety throughout an organization.",
+        "It is a way for management to drive the food safety culture within",
+        "the company. A site with strong food safety culture has a fully",
+        "implemented food safett system and addresses concerns or issues",
+        "when they arise.",
         
         br(),
-        h3("How do we address these risks?"),
-        "There are 3 different types of hazards that exist that we as",
-        "a plant need to address:",
-        br(),
-        "1. Biological Hazards: This type of hazard includes viruses, ",
-        "bacteria, mold, and yeast. Our best defense against biological",
-        "hazards include sanitation of hands/equipment and part handling ",
-        "methods.",
+        h3("How do we spread food safety culture in CHAR?"),
+        "1. We communicate about food safety policies and responsibilities",
+        "during plant meetings and toolbox talks.",
         br(),
         br(),
-        "2. Chemical Hazards: This type of hazard includes cleaners, oils,",
-        "lubricants, inks, and solvents. Our best defense against chemical",
-        "hazards include cleaning/sanitizing product-contact surfaces following",
-        "any maintenance activities and only allowing certain cleaning products",
-        "on those surfaces.",
+        "2. We encourage employee feedback on food safety related issues.",
         br(),
         br(),
-        "3. Physical Hazards: This type of hazard includes metal, wood, glass,",
-        " and hair. Our best defense against physical hazards are some of the ",
-        "GMP practices that we have in place like the hair and beard nets.",
+        "3. It is a performance measurement that it discussed at management",
+        "review meetings.",
+        br(),
+        br(),
+        "4. The food safety policy is reviewed and signed by all of management",
+        "and posted in the employee hallway so that everyone is aware of our",
+        "commitment to food safety.",
+       
+        
         
         br(),
        
