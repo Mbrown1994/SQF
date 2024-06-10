@@ -24,7 +24,7 @@ suppressWarnings(library(caret))
 shinyUI(navbarPage(
   
   # Application title
-  title = "SQF Database - Berry CHAR",
+  title = "SQF Database - Thinwall Region",
   
   # Add a theme
   theme = shinytheme("flatly"),
@@ -41,9 +41,9 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "FoodCulture.png",
-          height = '450 px',
-          width = '500 px'
+          src = "blood.png",
+          height = '300 px',
+          width = '300 px'
           
         ),
         
@@ -70,30 +70,27 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What is food safety culture?"),
-        "They are the shared values, beliefs, and norms that affect",
-        "mindset and behavior toward food safety throughout an organization.",
-        "It is a way for management to drive the food safety culture within",
-        "the company. A site with strong food safety culture has a fully",
-        "implemented food safett system and addresses concerns or issues",
-        "when they arise.",
+        h3("What are bloodborne pathogens?"),
+        "Bloodborne pathogens are microorganisms such as viruses or bacteria",
+        "that are carried in blood and can cause disease in people. Examples of",
+        "bloodborne pathogens are:",
+        br(),
+        br(),
+        "1. Hepatitis B (HBV)",
+        br(),
+        "2. Human Immunodeficiency Virus (HIV)",
+        br(),
+        
         
         br(),
-        h3("How do we spread food safety culture in CHAR?"),
-        "1. We communicate about food safety policies and responsibilities",
-        "during plant meetings and toolbox talks.",
-        br(),
-        br(),
-        "2. We encourage employee feedback on food safety related issues.",
-        br(),
-        br(),
-        "3. It is a performance measurement that it discussed at management",
-        "review meetings.",
-        br(),
-        br(),
-        "4. The food safety policy is reviewed and signed by all of management",
-        "and posted in the employee hallway so that everyone is aware of our",
-        "commitment to food safety.",
+        h3("How are they transmitted?"),
+        "Bloodborne pathogens may be transmitted through the mucous membranes",
+        "of the nose, eyes, and/or mouth. Accidental puncture from contaminated",
+        "needles and other sharp objects can result in transmission of bloodborne",
+        "pathogens. In case of an accident, do not touch or clean any blood from",
+        "your fellow worker, work area or equipment. Barricade the contaminated",
+        "area and wait for trained employees to clean the blood and decontaminate",
+        "the area.",
        
         
         
