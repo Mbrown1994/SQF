@@ -24,7 +24,7 @@ suppressWarnings(library(caret))
 shinyUI(navbarPage(
   
   # Application title
-  title = "SQF Database - Thinwall Region",
+  title = "SQF Database - Berry Global",
   
   # Add a theme
   theme = shinytheme("flatly"),
@@ -41,9 +41,9 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "blood.png",
-          height = '300 px',
-          width = '300 px'
+          src = "sqfculture.png",
+          height = '350 px',
+          width = '400 px'
           
         ),
         
@@ -70,28 +70,27 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What are bloodborne pathogens?"),
-        "Bloodborne pathogens are microorganisms such as viruses or bacteria",
-        "that are carried in blood and can cause disease in people. Examples of",
-        "bloodborne pathogens are:",
+        h3("What is food safety culture and how is it created?"),
+        "A strong culture of food safety involves a commitment from everyone",
+        "within an organization, from top-level management to frontline workers,",
+        "to prioritize and uphold food safety standards. Generally recognized key",
+        "elements in creating food safety culture include leadership, communication,",
+        "commitment, risk awareness, environment, accountability, and employee",
+        "knowledge/behaviors.",
         br(),
         br(),
-        "1. Hepatitis B (HBV)",
         br(),
-        "2. Human Immunodeficiency Virus (HIV)",
-        br(),
-        
-        
-        br(),
-        h3("How are they transmitted?"),
-        "Bloodborne pathogens may be transmitted through the mucous membranes",
-        "of the nose, eyes, and/or mouth. Accidental puncture from contaminated",
-        "needles and other sharp objects can result in transmission of bloodborne",
-        "pathogens. In case of an accident, do not touch or clean any blood from",
-        "your fellow worker, work area or equipment. Barricade the contaminated",
-        "area and wait for trained employees to clean the blood and decontaminate",
-        "the area.",
-       
+        h3("What can be done to promote a strong food safety culture?"),
+        "Food safety culture should be promoted as a necessary and critical business",
+        "issue for all employees. Organizations should make it a priority to brand their",
+        "commitment to food safety culture and promote it everywhere. Open communication",
+        "and expectations around food safety should be communicated thoroughly",
+        "within the plant. Appropriate training (for example, this website!) should be available",
+        "to all employees. In Charlotte, we promote employee feedback on food safety related issues,",
+        "we communicate about food safety policies and responsibilities, and we use food safety related",
+        "issues as a performance measurement. These are all ways that we spread the food safety culture",
+        "within our plant.",
+      
         
         
         br(),
