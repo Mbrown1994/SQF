@@ -41,9 +41,9 @@ shinyUI(navbarPage(
         
         # Add in the image
         img(
-          src = "sqfculture.png",
-          height = '350 px',
-          width = '400 px'
+          src = "Hold.png",
+          height = '300 px',
+          width = '350 px'
           
         ),
         
@@ -70,26 +70,30 @@ shinyUI(navbarPage(
       sidebarPanel(
         
         # Describe what this app will be used for
-        h3("What is food safety culture and how is it created?"),
-        "A strong culture of food safety involves a commitment from everyone",
-        "within an organization, from top-level management to frontline workers,",
-        "to prioritize and uphold food safety standards. Generally recognized key",
-        "elements in creating food safety culture include leadership, communication,",
-        "commitment, risk awareness, environment, accountability, and employee",
-        "knowledge/behaviors.",
+        h3("Containment and Hold Process?"),
+        "In every manufacturing process, there will be times when something unexpected occurs,",
+        " a part defect is found, or something is wrong with the equipment. What is important at",
+        "these times is to make the right decision to protect both the customer and Berry from",
+        "further risk. We do that by quickly and fully identifying all impacted product and holding",
+        "that product for further review. This activity of quickly and completely identifying affected",
+        "product is called 'containment.' Much like we 'contain' a spill to keep it from reaching the",
+        "next step in the process.",
+        
+        
         br(),
         br(),
-        br(),
-        h3("What can be done to promote a strong food safety culture?"),
-        "Food safety culture should be promoted as a necessary and critical business",
-        "issue for all employees. Organizations should make it a priority to brand their",
-        "commitment to food safety culture and promote it everywhere. Open communication",
-        "and expectations around food safety should be communicated thoroughly",
-        "within the plant. Appropriate training (for example, this website!) should be available",
-        "to all employees. In Charlotte, we promote employee feedback on food safety related issues,",
-        "we communicate about food safety policies and responsibilities, and we use food safety related",
-        "issues as a performance measurement. These are all ways that we spread the food safety culture",
-        "within our plant.",
+        
+        
+        
+        h3("What happens when we find a defect?"),
+        "When a defect is identified, it is important to stop producing/packing that defect",
+        "and immediately let quality as well as your front line lead know. The quality team",
+        "will take the lead on identifying how many boxes/pallets are affected so that we can",
+        "either scrap the product out or begin the rework process. It is important to remember",
+        "that we want to protect our consumers which starts with us and this process.",
+        
+        
+        
       
         
         
